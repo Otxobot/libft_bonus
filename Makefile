@@ -44,30 +44,26 @@ CFLAGS = -Wall -Wextra -Werror
 OBJ = $(SRC:.c=.o)
 OBJ_B = $(SRC_B:.c=.o)
 INCLUDE = libft.h
+AR = ar rc
+RM = rm -f
 
-all: $(NAME)
+all:		$(NAME)
 
-$(NAME): $(OBJ) $(OBJ_B)
-	ar rc $(NAME) $(OBJ) $(OBJ_B)
+$(NAME):	$(OBJ)
+			$(AR) $(NAME) $(OBJ)
 
-%.o: %.c
-	gcc $(CFLAGS) -c $<
+bonus:		$(OBJ) $(OBJ_B)
+			$(AR) $(NAME) $(OBJ) $(OBJ_B)
 
-$(OBJ): $(SRC) 
-	gcc -c $(CFLAGS) $(SRC)
-
-$(OBJ_B): $(SRC_B) 
-	gcc -c $(CFLAGS) $(SRC_B)
-
-bonus: $(OBJ_B) $(OBJ)
-	ar $(NAME) $(OBJ) $(OBJ_B)
+.c.o:
+			$(CC) $(CCFLAGS) -I$(INCLUDE) -c $< -o $(<:.c=.o)
 
 clean:
-	rm -rf $(OBJ) $(OBJ_B) 
+			$(RM) $(OBJ) $(OBJ_B)
 
-fclean: clean
-	rm -f $(NAME)
+fclean:		clean
+			$(RM) $(NAME)
 
-re: fclean all
+re:			fclean all
 
-.PHONY: all clean fclean re
+.PHONY:		all clean fclean re bonus

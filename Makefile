@@ -47,14 +47,17 @@ INCLUDE = libft.h
 
 all: $(NAME)
 
-$(NAME): $(OBJ)
-	ar rc $(NAME) $(OBJ)
+$(NAME): $(OBJ) $(OBJ_B)
+	ar rc $(NAME) $(OBJ) $(OBJ_B)
 
 %.o: %.c
 	gcc $(CFLAGS) -c $<
 
 $(OBJ): $(SRC) 
 	gcc -c $(CFLAGS) $(SRC)
+
+$(OBJ_B): $(SRC_B) 
+	gcc -c $(CFLAGS) $(SRC_B)
 
 bonus: $(OBJ_B) $(OBJ)
 	ar $(NAME) $(OBJ) $(OBJ_B)

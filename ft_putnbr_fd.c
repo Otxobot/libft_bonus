@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 13:43:30 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/15 17:36:55 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:49:40 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,3 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 	ft_putchar_fd((char)(nb % 10 + '0'), fd);
 }
-
-// int main(void)
-// {
-// 	int		nmb = 20;
-// 	ft_putnbr_fd(nmb, 1);
-// 	return(0);
-// }

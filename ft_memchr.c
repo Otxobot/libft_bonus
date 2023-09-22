@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/05 17:50:09 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/13 12:18:56 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:48:43 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,18 +28,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-/*
-int main(void)
-{
-	char s[50] = "This is my string";
-
-	int a;
-
-	a = 'i';
-
-	printf("%s", ft_memchr(s, a, 30));
-
-	return(0);
-}
-*/

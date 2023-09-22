@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 16:56:43 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/14 17:12:20 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:50:02 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,12 +41,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str1[i] = '\0';
 	return (str1);
 }
-
-// int main(void)
-// {
-// 	char primero[] = "hello";
-// 	char segundo[] = "hola";
-
-// 	printf("%s\n", ft_strjoin(primero, segundo));
-// 	return(0);
-// }

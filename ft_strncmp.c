@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/05 15:18:14 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/13 11:58:48 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:50:34 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,17 +32,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-/*
-int main(void)
-{
-  	char str1[] = "aaaa";
-	char str2[] = "aaa";
-	//	unsigned int nb = 2;
-
-	printf("ft_strncmp: %d ", ft_strncmp(str1, str2, 7));
-//	printf("src: %s ", str1);
-//	printf("Search: %s ",  str2);
-	return (0);
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 15:06:09 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/14 15:13:34 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:49:44 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +26,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-
-// int main(void)
-// {
-// 	char	*c;
-// 	int		fd;
-
-// 	c = "MAI";
-// 	fd = 1;
-// 	ft_putstr_fd(c, fd);
-// }

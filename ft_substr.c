@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/13 12:43:23 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/19 15:12:08 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:50:49 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +35,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(strsub, &s[start], len + 1);
 	return (strsub);
 }
-
-/*
-int main(void)
-{
-	char	*s;
-
-	s = "hola buenas tardes";
-	
-	printf("%s\n", ft_substr(s, 5, 8));
-}
-*/

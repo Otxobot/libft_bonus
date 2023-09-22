@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 15:57:07 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/19 14:15:14 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:49:29 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (str);
 }
-
-// int main(void)
-// {
-// 	char str[50] = "This string.h library function";
-// 	printf("%s", ft_memset(str, '$', 4));
-// 	return(0);
-// }

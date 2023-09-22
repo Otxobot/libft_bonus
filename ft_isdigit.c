@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 12:04:57 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/07 14:02:47 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:48:27 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,16 +19,3 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
-
-/*
-int main(void)
-{
-	int i;
-
-	i = 10;
-
-	printf("%i",ft_isdigit(i));
-
-	return(0);
-}
-*/

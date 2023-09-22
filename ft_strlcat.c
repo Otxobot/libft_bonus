@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/07 13:58:08 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/19 14:15:28 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:50:13 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,13 +35,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[dest + i] = '\0';
 	return (dest + orig);
 }
-
-/*
-int main(void)
-{
-	char dst[] = "holajkd";
-	char src[] = "hele";
-	printf("%zu", ft_strlcat(dst, src, 10));
-	return(0);
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/19 15:54:33 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/21 16:06:40 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:50:30 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,16 +41,3 @@ char	mi_funcion(unsigned int i, char str)
 	else
 		return (str);
 }
-
-/*
-int main(void)
-{
-	char	*str;
-	char	*resultado;
-	str = "?hola?gente.?";
-	printf("el resultado es: %s\n", str);
-	resultado = ft_strmapi(str, mi_funcion);
-	printf("el resultado nuevo es: %s\n", resultado);
-	return(0);
-}
-*/

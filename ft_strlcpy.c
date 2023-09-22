@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 15:42:21 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/19 16:20:27 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:50:16 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,20 +33,3 @@ i = 0;
 		i++;
 	return (i);
 }
-
-// #include <string.h>
-// #include <stdio.h>
-// #include "libft.h"
-
-// int	main(void)
-// {
-// 	const char	*str = "Hello!";
-// 	char		dst2[42];
-// 	int			ret2;
-
-// 	ret2 = (int)ft_strlcpy(dst2, str, 7);
-// 	printf("str_ft >> %d \n", ret2);
-// 	printf("str_lib >> %s \n", dst2);
-
-// 	return (0);
-// }

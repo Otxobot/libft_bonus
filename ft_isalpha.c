@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 11:52:22 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/07 13:44:14 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:48:20 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-
-/*int main()
-{
-	char c = 'B';
-	printf("resultado: %d", ft_isalpha(c));
-	return(0);
-}
-*/

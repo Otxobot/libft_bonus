@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 14:24:05 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/13 12:21:48 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:48:11 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-/*
-int main (void)
-{
-	char str[50] = "this string.h library function";
-	ft_bzero(str, 2);
-	for (int x = 0; x < 50; x++)
-		printf("%c", str[x]);
-	
-	return(0);
-}
-*/

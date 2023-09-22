@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/19 17:22:10 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/26 11:36:22 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:50:46 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,14 +56,3 @@ char	*ft_strtrim(const char *s1, char const *set)
 	str[i] = 0;
 	return (str);
 }
-
-/*
-int	main(void)
-{
-	char a[] = "hboblbab";
-	char b[] = "a";
-
-	printf("resultado: %s\n", ft_strtrim(a, b));
-	return(0);
-}
-*/

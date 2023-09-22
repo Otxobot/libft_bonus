@@ -6,7 +6,7 @@
 /*   By: abasante <abasante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 15:52:41 by abasante          #+#    #+#             */
-/*   Updated: 2022/09/21 15:09:41 by abasante         ###   ########.fr       */
+/*   Updated: 2023/09/22 11:50:21 by abasante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,3 @@ int	ft_strlen(const char *str)
 	}
 	return (n);
 }
-
-// int main(void)
-// {
-// 	char s[50] = "?hola?guapa.?";
-
-// 	printf("%d\n", ft_strlen(s));
-
-// 	return(0);
-// }
